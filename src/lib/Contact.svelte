@@ -18,7 +18,7 @@ const showSurprise = () => {
 </script>
 
 <div id="contact" class="w-full flex flex-col items-center">
-    <div class="login-box w-full max-w-2xl p-12 m-8 md:rounded-xl">
+    <div class=" md:shadow-2xl box-border w-full max-w-2xl p-12 m-8 md:rounded-xl">
         <h2 class="text-3xl font-semibold text-center max-w-xl py-14 text-white">{$t('contact_data')[0].heading}</h2>
         <form id="fs-frm" target="formSubmitFrame" name="survey-form" accept-charset="utf-8" action="https://formspree.io/f/xeqvkrav" method="post" on:submit={showSurprise}>
           <fieldset id="fs-frm-inputs">
@@ -79,9 +79,7 @@ const showSurprise = () => {
     }
 
  .login-box {
-  background: rgba(0,0,0,.5);
   box-sizing: border-box;
-  box-shadow: 0 15px 25px rgba(0,0,0,.6);
 }
 
 #fs-frm input,
