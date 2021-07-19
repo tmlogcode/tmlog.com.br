@@ -32,8 +32,6 @@ const showSurprise = () => {
                 <label class="text-white" for="timely">1. {$t('contact_data')[0].email_list[0].list4}</label>
                 <select name="Tipo de serviço" id="timely" required>
                     <option value="Choose" selected={$t('contact_data')[0].services_list[0].list1} disabled="">{$t('contact_data')[0].services_list[0].list1}</option>
-
-
                     <option value={$t('contact_data')[0].services_list[0].list1}>{$t('contact_data')[0].services_list[0].list2}</option>
                     <option value={$t('contact_data')[0].services_list[0].list2}>{$t('contact_data')[0].services_list[0].list3}</option>
                     <option value={$t('contact_data')[0].services_list[0].list3}>{$t('contact_data')[0].services_list[0].list4}</option>
