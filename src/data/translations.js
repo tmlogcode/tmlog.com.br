@@ -26,11 +26,15 @@ export default {
             },
             {
                 id: 1,
-                text: 'movimentando seu'
+                text: 'Movimentando'
             },
             {
                 id: 1,
-                text: 'negócio'
+                text: 'Seu'
+            },
+            {
+                id: 1,
+                text: 'Negócio.'
             },
             {
                 id: 1,
@@ -283,11 +287,15 @@ export default {
             },
             {
                 id: 1,
-                text: 'moving your'
+                text: 'Moving'
             },
             {
                 id: 1,
-                text: 'business'
+                text: 'Your'
+            },
+            {
+                id: 1,
+                text: 'Business.'
             },
             {
                 id: 1,
@@ -537,15 +545,19 @@ export default {
         menu: '/menu.svg',
         hero_slogan: [{
                 id: 1,
-                text: 'Nuestra logistica'
+                text: 'La logistica'
             },
             {
                 id: 1,
-                text: 'trasladando tu'
+                text: 'Moviendo'
             },
             {
                 id: 1,
-                text: 'negocio'
+                text: 'Tu'
+            },
+            {
+                id: 1,
+                text: 'Negocio.'
             },
             {
                 id: 1,
