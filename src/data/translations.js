@@ -42,7 +42,7 @@ export default {
             },
             {
                 id: 1,
-                text: 'FAZER COTAÇÃO'
+                text: 'Fazer cotação'
             }
         ],
         stats: [{
@@ -63,28 +63,28 @@ export default {
         ],
         solutions_data: [{
                 img: "/air.png",
-                title: "Frete AÉREO",
+                title: "Frete aéreo",
                 p: "AGILIDADE E SEGURANÇA garantidas por meio do transporte de cargas no Modal Aéreo: a melhor opção para o envio de cargas prioritárias e/ou urgentes",
                 link: "/solutions/air",
                 more: "Saiba Mais"
             },
             {
                 img: "/ship.png",
-                title: "Frete MARÍTIMO",
+                title: "Frete marítimo",
                 p: "SEGURANÇA E TRADIÇÃO no modal marítimo de forma diversificada, flexível e com excelência",
                 link: "/solutions/sea",
                 more: "Saiba Mais"
             },
             {
                 img: "/truck.png",
-                title: "Frete RODOVIÁRIO",
+                title: "Frete rodoviário",
                 p: "TRANQUILIDADE E SEGURANÇA asseguradas para seu negócio por meio de transporte rodoviário",
                 link: "/solutions/truck",
                 more: "Saiba Mais"
             },
             {
                 img: "/custom.png",
-                title: "Logística Integrada",
+                title: "Logística integrada",
                 p: "Profissionais capacitados para administrar, transportar, armazenar e distribuir sua carga com eficiência e segurança",
                 link: "/solutions/custom",
                 more: "Saiba Mais"
@@ -98,8 +98,8 @@ export default {
             }
         ],
         about: [{
-            heading: "QUEM SOMOS NÓS",
-            title: "A TMLOG é uma empresa de logística internacional focada em auxiliar sua empresa na tomada das melhores decisões no envio e agenciamento de cargas",
+            heading: "Quem somos nós",
+            title: "Nosso objetivo é que a sua empresa saia na frente, inove e utilize soluções tecnológicas e humanizadas de logística internacional",
             why_list: [{
                 text1: "Com operações iniciadas em 2021 sob a gestão de uma equipe experiente e com expertise em agenciamento, oferecemos aos nossos clientes excelência em cada projeto, entregando viabilidade, segurança e tecnologia.",
                 text2: "O relacionamento e a conexão entre equipe e cliente é nossa prioridade, ocorrendo de maneira humanizada e personalizada. Gerenciamos de forma coordenada e eficiente os embarques de ponta a ponta, garantindo que os projetos sejam implementados de forma ágil e eficaz, assegurando o auxílio e suporte em todas as etapas do processo."

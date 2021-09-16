@@ -16,11 +16,11 @@
         <span></span>
     </div>
     {#each $t('solutions_data') as item}
-    <div class="flex flex-col lg:flex-row items-center justify-center py-6 max-w-7xl">
-        <img src={item.img} alt="">
+    <div data-aos="fade-left" class="flex flex-col lg:flex-row items-center justify-center py-6 max-w-7xl">
+        <img src={item.img} alt="" class="img-zoom">
         <div class="flex flex-col px-4 py-12">
             <h1 class="py-4 text-4xl font-semibold">{item.title}</h1>
-            <p class="py-4 opacity-60 max-w-screen-sm font-thin">{item.p}</p>
+            <p class="py-4 opacity-70 max-w-screen-sm font-normal">{item.p}</p>
             <a class="flex items-center" href={item.link}>
                 <div class="btn py-3 px-8 rounded-full">{item.more}</div>
             </a>
@@ -43,11 +43,20 @@
     }
 
     .btn {
-        background-color: #3D4DA1;
+        background: linear-gradient(90deg, rgba(61,77,161,1) 48%, rgba(81,102,213,1) 100%);
+        transition: transform .2s;
     }
 
     .btn:hover {
-        background-color: #324084;
+        transform: scale(1.05);
+    }
+
+    .img-zoom {
+        transition: transform .2s;
+    }
+
+    .img-zoom:hover {
+        transform: scale(1.1);
     }
 
     .arrow {

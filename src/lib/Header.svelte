@@ -10,16 +10,16 @@
 
 <div class="w-full flex flex-col lg:flex-row items-center justify-center text-white" id="hero">
 	<div class="wraper flex flex-col items-center lg:flex-row">
-		<div class="flex flex-col items-baseline my-8">
+		<div class="flex flex-col items-baseline my-8 md:mx-16">
 			<h1 class="  max-w-md text-4xl md:text-6xl font-semibold py-4">{$t('hero_slogan')[0].text} {$t('hero_slogan')[1].text} {$t('hero_slogan')[2].text} {$t('hero_slogan')[3].text}</h1>
 			<br>
 			<!-- <p class="font-thin">{$t('hero_slogan')[3].text}</p> -->
 			<br>
-			<a class="flex flex-row items-center justify-center px-8 py-4 rounded-full" id="btn" href="#contact">{$t('hero_slogan')[5].text}<img class=" px-2" src="/arrow-right.svg" alt=""></a>
+			<a class="flex flex-row items-center justify-center px-8 py-4 rounded-full font-semibold" id="btn" href="#contact">{$t('hero_slogan')[5].text}</a>
 			<br>
 		</div>
-		<div>
-			<img src="/hero.png" alt="">
+		<div class="">
+			<img src="/hero-img.png" class="" alt="">
 		</div>
 	</div>
 </div>
@@ -27,7 +27,6 @@
 <style>
 	#hero {
 		background-color: #0D0D2B;
-		background-position: center;
 	}
 
 	#btn {
@@ -46,10 +45,6 @@
 
 	img {
 		mix-blend-mode: color-dodge;
-	}
-
-	.wraper {
-		max-width: 80%;	
 	}
 
 </style>

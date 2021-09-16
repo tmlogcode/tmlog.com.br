@@ -31,7 +31,7 @@
 </script>
 
 <nav class="w-full h-40 flex justify-around items-center">
-    <img src="/logo-full-white.svg" alt="" class="">
+    <a href="/" class="img-zoom"><img src="/logo-full-white.svg" alt="" class=""></a>
     <ul class="hidden sm:flex justify-around items-center">
         {#each $t('navbar') as item}
         <li class="mx-8  font-normal">
@@ -68,7 +68,17 @@
 
     img {
         height: 65px;
+        
     }
+
+    .img-zoom {
+        transition: transform .2s;
+    }
+
+    .img-zoom:hover {
+        transform: scale(1.3);
+    }
+
     #btn-lang {
         background-color: #0D0D2B;
     }
@@ -80,10 +90,12 @@
     }
 
     #contact-btn {
+        transition: opacity 1s;
     }
 
     #contact-btn:hover {
-        opacity: 1;
+        opacity: 2;
+        transition: opacity 1s;
     }
     
     #divisor {
