@@ -109,7 +109,7 @@ export default {
             heading: 'Sobre a TMLOG'
         }],
         values_list: [{
-                title: "MISSÃO",
+                title: "Missão",
                 p: "Garantir eficiência e transparência por todo o fluxo logístico internacional de forma segura, rentável e tecnológica.",
                 p1: "",
                 p2: "",
@@ -118,7 +118,7 @@ export default {
                 image_url: "success.svg"
             },
             {
-                title: "VISÃO",
+                title: "Visão",
                 p: "Tornar-se referência nacional em agenciamento de cargas de forma otimizada, tecnológica e humanizada, com acompanhamento de cada etapa por profissionais qualificados.",
                 p1: "",
                 p2: "",
@@ -127,7 +127,7 @@ export default {
                 image_url: "trust.svg"
             },
             {
-                title: "VALORES",
+                title: "Valores",
                 p: "União de profissionais com alta experiência de mercado em prol de um único objetivo: excelência.",
                 p1: "• Agimos com transparência",
                 p2: "• Utilizamos a tecnologia como maior aliado",
@@ -137,7 +137,7 @@ export default {
             }
         ],
         contact_data: [{
-            heading: "Preencha o formulário e receba uma cotação personalizada para sua operação:",
+            heading: "Preencha o formulário e receba uma cotação personalizada para sua operação",
             email_list: [{
                 list1: "Nome completo",
                 list2: "Endereço de Email",
