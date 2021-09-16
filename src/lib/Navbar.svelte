@@ -34,12 +34,12 @@
     <img src="/logo-full-white.svg" alt="" class="">
     <ul class="hidden sm:flex justify-around items-center">
         {#each $t('navbar') as item}
-        <li class="m-8 font-thin">
+        <li class="mx-8  font-normal">
             <a href="{item.path}">{item.label}</a>
         </li>
         {/each}
         <li class="mr-2 md:mr-4 lg:mr-11" id="divisor">|</li>
-        <a href="#contact" class=""><li class="btn mr-2 md:mr-4 lg:mr-11 px-8 py-3 rounded-full" id="contact-btn">{$t('contact')}</li></a>
+        <a href="#contact" class=""><li class="mx-8 px-10 py-4 rounded-full border-white border opacity-60" id="contact-btn">{$t('contact')}</li></a>
         <select bind:value={$locale} class="uppercase text-white" id="btn-lang">
             {#each languages as lang}
               <option value={lang} class="uppercase flex items-center justify-center">
@@ -66,6 +66,9 @@
 
 <style>
 
+    img {
+        height: 65px;
+    }
     #btn-lang {
         background-color: #0D0D2B;
     }
@@ -77,11 +80,10 @@
     }
 
     #contact-btn {
-        background-color: #3D4DA1;
     }
 
     #contact-btn:hover {
-        background-color: #324084;
+        opacity: 1;
     }
     
     #divisor {

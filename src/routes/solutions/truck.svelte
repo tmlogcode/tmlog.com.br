@@ -65,7 +65,7 @@
 	#airbanner {
 		height: 800px;
 		background-color: #0D0D2B;
-		background-image: url("/truck-banner.jpg");
+		background-image: url("/cargotruck.jpg");
 		background-position: right;
 		background-size: cover;
 		background-blend-mode: luminosity;

@@ -12,7 +12,6 @@
     $: languages = Object.keys(translations);
     $: dict.set(translations);
 </script>
-
 <Header />
 <Stats stats={data.STATS} />
 <Solutions solutions={data.SOLUTIONS} />

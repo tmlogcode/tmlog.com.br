@@ -6,12 +6,13 @@
     import { dict, locale, t } from './../../data/i18n';
     $: languages = Object.keys(translations);
     $: dict.set(translations);
+
 </script>
 
 <Navbar />
 
 <div id="airbanner" class="w-full flex items-center justify-center md:justify-end  md:px-36">
-	<div class="flex flex-col items-center justify-center">
+	<div class="flex flex-col items-center justify-center rounded-md">
         <img src="/logo-mini-white.svg" alt="" class="logo-mini">
 		<h1 class="text-white font-semibold text-6xl">{$t('air')[0].title}</h1>
 		<div class="arrow my-8">
@@ -22,12 +23,10 @@
 	</div>
 </div>
 
-<div id="custom" class="w-full flex flex-col md:flex-row items-center justify-center">
-    <div>
-        <h1 class="text-white text-3xl font-thin max-w-lg text-center pt-12 md:pt-36 px-4">{$t('air')[0].desc_1}</h1>
-        <h2 class="text-white text-3xl font-semibold max-w-lg text-center lb-12 md:pb-36 px-4">{$t('air')[0].desc_2}</h2>
-    </div>
-    <div class="py-24">
+<div id="custom" class="w-full flex flex-col  md:flex-row md:justify-center" >
+    <h1 data-aos="fade-right" class="mt-12 max-w-lg flex flex-col items-center justify-center text-white text-xl px-4 tracking-wide leading-loose ounded-xl rounded-xl type-animation animating">{$t('air')[0].desc_1}</h1>
+    <div class="py-24 flex flex-col items-center" data-aos="fade-right">
+        <h2 class="text-white text-3xl font-semibold max-w-lg text-center pb-8">{$t('air')[0].desc_2}</h2>
         <ul class="text-white">
             <li class="flex flex-row items-center my-8"><img id="icon" class="mx-4" src="../check.svg" alt="">{$t('air')[0].list_1}</li>
             <li class="flex flex-row items-center my-8"><img id="icon" class="mx-4" src="../check.svg" alt="">{$t('air')[0].list_2}</li>
@@ -49,7 +48,7 @@
 
 <div id="custom" class="w-full flex flex-col md:flex-row items-center justify-center pb-12">
     <img src="/air.png" alt="" class="my-8">
-    <div class="flex flex-col items-center justify-center">
+    <div class="flex flex-col items-center justify-center rounded-xl">
         <h2 class="text-white text-3xl font-thin max-w-lg text-center px-4 py-8">{$t('air')[0].footer_1}</h2>
         <h2 class="text-white text-3xl font-semibold max-w-lg text-center px-4 py-8">{$t('air')[0].footer_2}</h2>
     </div>
@@ -64,11 +63,10 @@
 </div>
 <Footer />
 <style>
-
 	#airbanner {
 		height: 800px;
 		background-color: #0D0D2B;
-		background-image: url("/air-banner.jpeg");
+		background-image: url("/airplanes.webp");
 		background-position: right;
 		background-size: cover;
 		background-blend-mode: luminosity;
@@ -146,5 +144,7 @@
     #custom {
         background-color: #0D0D2B;
     }
+
+    
 
 </style>

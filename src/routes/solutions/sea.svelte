@@ -69,7 +69,7 @@
 	#airbanner {
 		height: 800px;
 		background-color: #0D0D2B;
-		background-image: url("/sea-banner.jpg");
+		background-image: url("/cargoship.jpg");
 		background-position: right;
 		background-size: cover;
 		background-blend-mode: luminosity;

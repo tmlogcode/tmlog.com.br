@@ -10,15 +10,12 @@
 
 <div class="w-full flex flex-col lg:flex-row items-center justify-center text-white" id="hero">
 	<div class="wraper flex flex-col items-center lg:flex-row">
-		<div class="flex flex-col my-8">
-			<h1 class="text-4xl md:text-6xl font-semibold">{$t('hero_slogan')[0].text}</h1>
-			<h1 class="text-4xl md:text-6xl font-semibold">{$t('hero_slogan')[1].text}</h1>
-			<h1 class="text-4xl md:text-6xl font-semibold">{$t('hero_slogan')[2].text}</h1>
-			<h1 class="text-4xl md:text-6xl font-semibold">{$t('hero_slogan')[3].text}</h1>
+		<div class="flex flex-col items-baseline my-8">
+			<h1 class="  max-w-md text-4xl md:text-6xl font-semibold py-4">{$t('hero_slogan')[0].text} {$t('hero_slogan')[1].text} {$t('hero_slogan')[2].text} {$t('hero_slogan')[3].text}</h1>
 			<br>
 			<!-- <p class="font-thin">{$t('hero_slogan')[3].text}</p> -->
 			<br>
-			<a class="flex items-center justify-around w-52 h-14 rounded-full px-2" id="btn" href="#contact">{$t('hero_slogan')[5].text}<img src="/arrow-right.svg" alt=""></a>
+			<a class="flex flex-row items-center justify-center px-8 py-4 rounded-full" id="btn" href="#contact">{$t('hero_slogan')[5].text}<img class=" px-2" src="/arrow-right.svg" alt=""></a>
 			<br>
 		</div>
 		<div>
@@ -34,7 +31,12 @@
 	}
 
 	#btn {
-		background-color: #3D4DA1;
+		background: linear-gradient(90deg, rgba(61,77,161,1) 48%, rgba(81,102,213,1) 100%);
+		transition: transform .2s;
+	}
+
+	#btn:hover {
+		transform: scale(1.05);
 	}
 
 	p {
@@ -49,4 +51,5 @@
 	.wraper {
 		max-width: 80%;	
 	}
+
 </style>

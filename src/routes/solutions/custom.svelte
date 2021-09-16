@@ -13,7 +13,7 @@
 <div id="airbanner" class="w-full flex items-center justify-center md:justify-end  md:px-36">
 	<div class="flex flex-col items-center justify-center">
         <img src="/logo-mini-white.svg" alt="" class="logo-mini">
-		<h1 class="text-white font-semibold text-6xl">{$t('custom')[0].title}</h1>
+		<h1 id="outline" class="text-white font-semibold text-6xl">{$t('custom')[0].title}</h1>
 		<div class="arrow my-8">
 			<span></span>
 			<span></span>
@@ -61,11 +61,10 @@
 </div>
 <Footer />
 <style>
-
 	#airbanner {
 		height: 800px;
 		background-color: #0D0D2B;
-		background-image: url("/air-banner.jpg");
+		background-image: url("/custom.webp");
 		background-position: right;
 		background-size: cover;
 		background-blend-mode: luminosity;

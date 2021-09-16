@@ -10,7 +10,7 @@ export default {
             {
                 id: 2,
                 path: '#solutions',
-                label: 'Soluções'
+                label: 'Serviços'
             },
             {
                 id: 3,
@@ -26,15 +26,15 @@ export default {
             },
             {
                 id: 1,
-                text: 'Movimentando'
+                text: 'movimentando'
             },
             {
                 id: 1,
-                text: 'Seu'
+                text: 'seu'
             },
             {
                 id: 1,
-                text: 'Negócio.'
+                text: 'negócio'
             },
             {
                 id: 1,
@@ -42,7 +42,7 @@ export default {
             },
             {
                 id: 1,
-                text: 'Solitar COTAÇÃO'
+                text: 'FAZER COTAÇÃO'
             }
         ],
         stats: [{
@@ -64,45 +64,45 @@ export default {
         solutions_data: [{
                 img: "/air.png",
                 title: "Frete AÉREO",
-                p: "Buscando agilidade e segurança no embarque? O transporte de cargas no Modal Aéreo é a solução para os casos de cargas prioritárias",
+                p: "AGILIDADE E SEGURANÇA garantidas por meio do transporte de cargas no Modal Aéreo: a melhor opção para o envio de cargas prioritárias e/ou urgentes",
                 link: "/solutions/air",
                 more: "Saiba Mais"
             },
             {
                 img: "/ship.png",
                 title: "Frete MARÍTIMO",
-                p: "Possuímos amplo conhecimento e experiência no modal marítimo, oferecendo soluções flexíveis e diversificadas.",
+                p: "SEGURANÇA E TRADIÇÃO no modal marítimo de forma diversificada, flexível e com excelência",
                 link: "/solutions/sea",
                 more: "Saiba Mais"
             },
             {
                 img: "/truck.png",
                 title: "Frete RODOVIÁRIO",
-                p: "Nossos serviços de transporte rodoviário proporciona tranquilidade e segurança para o seu negócio.",
+                p: "TRANQUILIDADE E SEGURANÇA asseguradas para seu negócio por meio de transporte rodoviário",
                 link: "/solutions/truck",
                 more: "Saiba Mais"
             },
             {
                 img: "/custom.png",
                 title: "Logística Integrada",
-                p: "Por meio das nossas soluções de Logística Integrada, você conta com profissionais capacitados para administrar, transportar, armazenar e distribuir sua carga com eficiência e segurança.",
+                p: "Profissionais capacitados para administrar, transportar, armazenar e distribuir sua carga com eficiência e segurança",
                 link: "/solutions/custom",
                 more: "Saiba Mais"
             },
             {
                 img: "/cargo.png",
                 title: "Seguro de Carga",
-                p: "A escolha de um seguro é uma das principais etapas de uma operação, e a TMLOG oferece assessoria completa neste processo.",
+                p: "ASSESSORIA COMPLETA no processo de escolha da melhor opção de seguro para a carga do seu negócio",
                 link: "/solutions/cargo",
                 more: "Saiba Mais"
             }
         ],
         about: [{
-            heading: "Quem somos nós?",
-            title: "Somos uma empresa com foco em ajudar os clientes a tomar as melhores decisões no ramo de agenciamento de cargas.",
+            heading: "QUEM SOMOS NÓS",
+            title: "A TMLOG é uma empresa de logística internacional focada em auxiliar sua empresa na tomada das melhores decisões no envio e agenciamento de cargas",
             why_list: [{
-                text1: "Com o início das operações no Brasil em 2021 amparado por um time com expertise em agenciamento temos como objetivo oferecer aos nossos clientes análises de cada projeto integrando viabilidade, segurança e tecnologia.",
-                text2: "Nosso departamento de coordenação possui amplo conhecimento, gerenciando os embarques de ponta a ponta, fazendo com que os projetos fluam de forma ágil e eficaz de acordo com o perfil de cada cliente, prestando todo auxílio e suporte necessário do início ao fim do processo."
+                text1: "Com operações iniciadas em 2021 sob a gestão de uma equipe experiente e com expertise em agenciamento, oferecemos aos nossos clientes excelência em cada projeto, entregando viabilidade, segurança e tecnologia.",
+                text2: "O relacionamento e a conexão entre equipe e cliente é nossa prioridade, ocorrendo de maneira humanizada e personalizada. Gerenciamos de forma coordenada e eficiente os embarques de ponta a ponta, garantindo que os projetos sejam implementados de forma ágil e eficaz, assegurando o auxílio e suporte em todas as etapas do processo."
             }]
         }],
         values: [{
@@ -110,17 +110,29 @@ export default {
         }],
         values_list: [{
                 title: "MISSÃO",
-                p: "Fornecer aos nossos clientes o melhor da logística internacional com o propósito de realizar projetos com segurança, rentáveis e com a tecnologia ao nosso favor.",
+                p: "Garantir eficiência e transparência por todo o fluxo logístico internacional de forma segura, rentável e tecnológica.",
+                p1: "",
+                p2: "",
+                p3: "",
+                p4: "",
                 image_url: "success.svg"
             },
             {
                 title: "VISÃO",
-                p: "Se tornar referência nacional em agenciamento de cargas no prazo de 05 anos.",
+                p: "Tornar-se referência nacional em agenciamento de cargas de forma otimizada, tecnológica e humanizada, com acompanhamento de cada etapa por profissionais qualificados.",
+                p1: "",
+                p2: "",
+                p3: "",
+                p4: "",
                 image_url: "trust.svg"
             },
             {
                 title: "VALORES",
-                p: "Confiança, responsabilidade, eficiência e agilidade em nossos serviços são chaves principais para que possamos fidelizar nossa parceria junto a nossos clientes e colaboradores, para nós é essencial haver transparência e comprometimento em todos nossos projetos.",
+                p: "União de profissionais com alta experiência de mercado em prol de um único objetivo: excelência.",
+                p1: "• Agimos com transparência",
+                p2: "• Utilizamos a tecnologia como maior aliado",
+                p3: "• Otimizamos cada processo acompanhando as evoluções",
+                p4: "• Garantimos segurança e melhor custo X benefício",
                 image_url: "responsiveness.svg"
             }
         ],
@@ -169,7 +181,7 @@ export default {
         }],
         footer_data: [{
             image_url: "logo-full-white.svg",
-            description: "Logística & tecnologia movimentando seu negócio",
+            description: "Nossa logística movimentando seu negócio.",
             image_local: "local.svg",
             contact_details: [{
                 street: "Rua Giovanni Battista Pirelli, 271, sala 207",
@@ -178,13 +190,25 @@ export default {
                 cel: "+55 11 98342-0044",
                 email: "contato@tmlog.com.br"
             }],
+            fast_links: [{
+                home: "Início",
+                solutions: "Soluções",
+                about: "Sobre",
+                contact: "Contato"
+            }],
+            pages: [{
+                air: "Frete Aéreo",
+                sea: "Frete Marítimo",
+                truck: "Frete Rodoviário",
+                integrated: "Logística Integrada",
+            }],
             credits: "@2021 TMLOG. Todos os direitos reservados",
             credits_email: "diaugustdev@gmail.com"
         }],
         air: [{
             title: "frete AÉREO",
-            desc_1: "Oferecemos soluções de transporte aéreo de carga para todos os principais pontos comerciais através de uma extensa rede de companhias aéreas e parceiros",
-            desc_2: "Dentro de cada cenário possuímos opções de embarque ágeis e flexíveis, traçando a melhor rota para seu projeto. Nossos serviços de frete aéreo incluem:",
+            desc_1: "A TMLOG promove de forma segura e tecnológica o envio de cargas urgentes (produtos perecíveis, medicamentos, etc); cargas projeto (maquinários industriais, equipamentos agrícolas, veículos, tanques, etc) e cargas restritas (produtos químicos de uso controlado; explosivos; inflamáveis, etc) por meio do modal aéreo. Ao priorizar embarques ágeis e flexíveis, a TMLOG define a melhor rota para seu projeto.",
+            desc_2: "Os serviços de frete aéreo da TMLOG incluem:",
             list_1: "Transporte aéreo internacional",
             list_2: "Transporte aéreo doméstico",
             list_3: "Envio de cargas perecíveis",
@@ -303,7 +327,7 @@ export default {
             },
             {
                 id: 1,
-                text: 'Quote NOW'
+                text: 'QUOTE NOW'
             }
         ],
         stats: [{
