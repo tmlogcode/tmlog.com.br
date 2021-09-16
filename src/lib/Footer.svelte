@@ -2,11 +2,11 @@
 
 </script>
 
-<div id="footer" class="w-full flex flex-col md:flex-row justify-center text-white">
-    <div class="w-auto flex flex-col items-baseline mx-12">
+<div id="footer" class="w-full flex flex-col md:flex-row justify-around text-white">
+    <div class="w-50 flex flex-col items-center md:items-baseline mx-12">
         <img class=" my-8 max-w-sm" style="max-width: 200px;" src="/logo-full-white.svg" alt="">
-        <p class="font-thin">contato@tmlog.com.br</p>
-        <p class="font-thin mb-8">+55 11 4978-5939</p>
+        <a href="mailto:contato@tmlog.com.br" class="font-normal my-1">contato@tmlog.com.br</a>
+        <a href="tel:+551149785939" class="mb-6">+55 11 4978-5939</a>
         <div class="flex">
             <a href="https://www.linkedin.com/company/tmlog/">
                 <img class="px-1" style="width: 35px; height: 35px;" src="/linkedin.svg" alt="">
@@ -19,28 +19,28 @@
             </a>
         </div>
     </div>
-    <div class="flex flex-col items-center mx-12">
+    <div class="w-50 flex flex-col items-center mx-12">
         <div class="flex">
             <div class="flex flex-col py-4 mx-8">
-                <h1 class="font-semibold py-4">Links rápidos</h1>
-                <a class="font-thin" href="/">Início</a>
-                <a class="font-thin" href="#solutions">Soluções</a>
-                <a class="font-thin" href="#about">Sobre</a>
-                <a class="font-thin" href="#contact">Contato</a>
+                <h1 class="text-xl font-bold py-4">Links rápidos</h1>
+                <a class="font-normal pb-3 opacity-70" href="/">Início</a>
+                <a class="font-normal pb-3 opacity-70" href="#solutions">Soluções</a>
+                <a class="font-normal pb-3 opacity-70" href="#about">Sobre</a>
+                <a class="font-normal opacity-70" href="#contact">Contato</a>
             </div>
             <div class="flex flex-col py-4 mx-8">
-                <h1 class="font-semibold py-4">Páginas</h1>
-                <a class="font-thin" href="/solutions/air">Frete Aéreo</a>
-                <a class="font-thin" href="/solutions/sea">Frete Marítimo</a>
-                <a class="font-thin" href="/solutions/truck">Frete Rodoviário</a>
-                <a class="font-thin" href="/solutions/custom">Logística Integrada</a>
+                <h1 class="text-xl font-semibold py-4">Páginas</h1>
+                <a class="font-normal pb-3 opacity-70" href="/solutions/air">Frete Aéreo</a>
+                <a class="font-normal pb-3 opacity-70" href="/solutions/sea">Frete Marítimo</a>
+                <a class="font-normal pb-3 opacity-70" href="/solutions/truck">Frete Rodoviário</a>
+                <a class="font-normal opacity-70" href="/solutions/custom">Logística Integrada</a>
             </div>
         </div>
     </div>
 </div>
 <div class="flex w-full items-center justify-around my-1">
     <div>
-        <h1 class=" text-sm text-white pt-12"> Rua Giovanni Battista Pirelli, 271, sala 207 Rua Giovanni Battista Pirelli, 271, sala 207</h1>
+        <h1 class=" text-sm text-white pt-12 text-acave text-center"> Rua Giovanni Battista Pirelli, 271, sala 207 Rua Giovanni Battista Pirelli, 271, Sala 207</h1>
     </div>
 </div>
 

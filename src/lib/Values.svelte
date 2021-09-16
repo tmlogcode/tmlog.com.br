@@ -10,7 +10,7 @@ $: languages = Object.keys(translations);
 $: dict.set(translations);
 </script>
 
-<div data-aos="slide-right" data-aos-delay="1200" class="flex flex-col justify-around items-center lg:flex-row about">
+<div data-aos="slide-right" data-aos-delay="100" class="flex flex-col justify-around items-center lg:flex-row about">
     {#each $t('values_list') as item}
     <div class="my-7 max-w-sm text-white">
         <h1 class="py-3 text-2xl font-bold">{item.title}</h1>

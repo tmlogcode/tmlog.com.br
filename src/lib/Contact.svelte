@@ -28,18 +28,18 @@ const showSurprise = () => {
 </script>
 
 <div id="contact" class="w-auto flex flex-col xl:flex-row items-center justify-center py-8">
-    <h2 class="text-5xl xl:mr-32 font-semibold text-center max-w-xl py-14 text-white ">{$t('contact_data')[0].heading}</h2>
-    <form class=" p-12 rounded-3xl card" id="fs-frm" target="formSubmitFrame" name="survey-form" accept-charset="utf-8" action="https://formspree.io/f/xeqvkrav" method="post" on:submit={showSurprise}>
-        <fieldset id="fs-frm-inputs" class="">
-            <label class="text-white" for="full-name" id="margin">{$t('contact_data')[0].email_list[0].list1}</label>
-            <input type="text" name="Nome" id="full-name" placeholder={$t('contact_data')[0].placeholder_list[0].list1} required>
-            <label class="text-white" for="email-address">{$t('contact_data')[0].email_list[0].list2}</label>
-            <input type="email" name="_replyto" id="email-address" placeholder={$t('contact_data')[0].placeholder_list[0].list2} required>
-            <label class="text-white" for="phone">{$t('contact_data')[0].email_list[0].list3}</label>
-            <input type="text" name="Telefone" id="phone" placeholder={$t('contact_data')[0].placeholder_list[0].list3} required>
-            <fieldset id="fs-frm-selects">
-                <label class="text-white" for="timely">1. {$t('contact_data')[0].email_list[0].list4}</label>
-                <select name="Tipo de serviço" id="timely" required>
+    <h2 class="text-5xl md:text-4xl xl:mr-32 font-semibold text-center max-w-xl py-14 text-white ">{$t('contact_data')[0].heading} 📝</h2>
+    <form class="flex flex-col p-8 mx-8 rounded-3xl card" id="fs-frm" target="formSubmitFrame" name="survey-form" accept-charset="utf-8" action="https://formspree.io/f/xeqvkrav" method="post" on:submit={showSurprise}>
+        <fieldset id="fs-frm-inputs" class="flex flex-col">
+            <label class="text-white my-2" for="full-name" id="margin">{$t('contact_data')[0].email_list[0].list1}</label>
+            <input class=" my-2" type="text" name="Nome" id="full-name" placeholder={$t('contact_data')[0].placeholder_list[0].list1} required>
+            <label class="text-white my-2" for="email-address">{$t('contact_data')[0].email_list[0].list2}</label>
+            <input class="my-2" type="email" name="_replyto" id="email-address" placeholder={$t('contact_data')[0].placeholder_list[0].list2} required>
+            <label class="text-white my-2" for="phone">{$t('contact_data')[0].email_list[0].list3}</label>
+            <input class="my-2" type="text" name="Telefone" id="phone" placeholder={$t('contact_data')[0].placeholder_list[0].list3} required>
+            <fieldset class="my-2 flex flex-row items-center justify-between" id="fs-frm-selects">
+                <label class="text-white my-2" for="timely">1. {$t('contact_data')[0].email_list[0].list4}</label>
+                <select class="my-2 p-1 rounded-md" name="Tipo de serviço" id="timely" required>
                     <option value="Choose" selected={$t('contact_data')[0].services_list[0].list1} disabled="">{$t('contact_data')[0].services_list[0].list1}</option>
                     <option value={$t('contact_data')[0].services_list[0].list1}>{$t('contact_data')[0].services_list[0].list2}</option>
                     <option value={$t('contact_data')[0].services_list[0].list2}>{$t('contact_data')[0].services_list[0].list3}</option>
@@ -49,17 +49,17 @@ const showSurprise = () => {
                     <option value={$t('contact_data')[0].services_list[0].list6}>{$t('contact_data')[0].services_list[0].list7}</option>
                 </select>
             </fieldset>
-            <label class="text-white" for="cargo-origin">2. {$t('contact_data')[0].email_list[0].list5}</label>
-            <input type="text" name="Origem da carga" id="cargo-origin" placeholder={$t('contact_data')[0].placeholder_list[0].list4} required>
-            <label class="text-white" for="cargo-destination">3. {$t('contact_data')[0].email_list[0].list6}</label>
-            <input type="text" name="Destino da carga" id="cargo-destination" placeholder={$t('contact_data')[0].placeholder_list[0].list5} required>
-            <label class="text-white" for="cargo-description">{$t('contact_data')[0].email_list[0].list7}</label>
-            <textarea rows="3" name="Descrição da carga" id="message"
+            <label class="text-white my-2" for="cargo-origin">2. {$t('contact_data')[0].email_list[0].list5}</label>
+            <input class="my-2" type="text" name="Origem da carga" id="cargo-origin" placeholder={$t('contact_data')[0].placeholder_list[0].list4} required>
+            <label class="text-white my-2" for="cargo-destination">3. {$t('contact_data')[0].email_list[0].list6}</label>
+            <input class="my-2" type="text" name="Destino da carga" id="cargo-destination" placeholder={$t('contact_data')[0].placeholder_list[0].list5} required>
+            <label class="text-white my-2" for="cargo-description">{$t('contact_data')[0].email_list[0].list7}</label>
+            <textarea class="my-2" rows="3" name="Descrição da carga" id="message"
                 placeholder=""
                 required=""></textarea>
-            <fieldset id="fs-frm-selects">
-                <label class="text-white" for="importer">{$t('contact_data')[0].email_list[0].list8}</label>
-                <select name="Já realizou transporte internacional?" id="importer" required>
+            <fieldset class="my-2" id="fs-frm-selects">
+                <label class="text-white my-2" for="importer">{$t('contact_data')[0].email_list[0].list8}</label>
+                <select class="my-2 p-1 rounded-md" name="Já realizou transporte internacional?" id="importer" required>
                     <option value={$t('contact_data')[0].services_list[0].list1} selected={$t('contact_data')[0].services_list[0].list1} disabled="">{$t('contact_data')[0].services_list[0].list1}</option>
                     <option value={$t('contact_data')[0].importer_list[0].list1}>{$t('contact_data')[0].importer_list[0].list2}</option>
                     <option value={$t('contact_data')[0].importer_list[0].list2}>{$t('contact_data')[0].importer_list[0].list3}</option>
@@ -67,7 +67,7 @@ const showSurprise = () => {
             </fieldset>
             <input type="hidden" name="_subject" id="email-subject" value="Nova cotação solicitada:">
         </fieldset>
-        <input id="submit" class="rounded-full" type="submit" value={$t('contact_data')[0].email_list[0].list9}>
+        <input id="submit" class=" py-4 rounded-3xl mt-6" type="submit" value={$t('contact_data')[0].email_list[0].list9}>
         <iframe name="formSubmitFrame" tile="Holds Submitted form data" rel="nofollow" class="d-none"></iframe>
     </form>
 </div>
@@ -89,125 +89,31 @@ iframe {
     width: 0px;
 }
 
-#submit {
-    border-radius: 25px !important;
+input[type="text"],
+input[type="email"] {
+  background-color: #0D0D2B;
+  padding: 10px;
+  color: #fff;
 }
 
-.login-box {
-    box-sizing: border-box;
+textarea {
+  background-color: #0D0D2B;
+  color: #fff;
+  resize: none;
 }
 
-#fs-frm input,
-#fs-frm select,
-#fs-frm textarea,
-#fs-frm fieldset,
-#fs-frm optgroup,
-#fs-frm label,
-#fs-frm #card-element:disabled {
-    border: none;
-    border-radius: 0;
-    display: block;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+select {
+    background-color: #3D4DA1;
+    color: #fff;
 }
 
-#fs-frm label,
-#fs-frm legend,
-#fs-frm ::placeholder {
-    font-size: .825rem;
-    margin-bottom: .5rem;
-    padding-top: .2rem;
-    display: flex;
-    align-items: baseline;
+input[type="submit"] {
+    background: linear-gradient(90deg, rgba(61, 77, 161, 1) 48%, rgba(81, 102, 213, 1) 100%);
+    transition: transform .2s;
+    color: #fff;
+}
+input[type="submit"]:hover {
+    transform: scale(1.05);
 }
 
-/* border, padding, margin, width */
-#fs-frm input,
-#fs-frm select,
-#fs-frm textarea,
-#fs-frm #card-element {
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: .75em 1rem;
-    margin-bottom: 1.5rem;
-}
-
-#fs-frm input:focus,
-#fs-frm select:focus,
-#fs-frm textarea:focus {
-    background-color: white;
-    outline-style: solid;
-    outline-width: thin;
-    outline-color: gray;
-    outline-offset: -1px;
-}
-
-#fs-frm [type="text"],
-#fs-frm [type="email"] {
-    width: 100%;
-}
-
-#fs-frm [type="button"],
-#fs-frm [type="submit"],
-#fs-frm [type="reset"] {
-    width: auto;
-    cursor: pointer;
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-}
-
-#fs-frm [type="button"]:focus,
-#fs-frm [type="submit"]:focus,
-#fs-frm [type="reset"]:focus {
-    outline: none;
-}
-
-#fs-frm [type="submit"],
-#fs-frm [type="reset"] {
-    margin-bottom: 0;
-}
-
-#fs-frm select {
-    text-transform: none;
-}
-
-#fs-frm [type="checkbox"] {
-    -webkit-appearance: checkbox;
-    -moz-appearance: checkbox;
-    appearance: checkbox;
-    display: inline-block;
-    width: auto;
-    margin: 0 .5em 0 0 !important;
-}
-
-#fs-frm [type="radio"] {
-    -webkit-appearance: radio;
-    -moz-appearance: radio;
-    appearance: radio;
-}
-
-/* address, locale */
-#fs-frm fieldset.locale input[name="city"],
-#fs-frm fieldset.locale select[name="state"],
-#fs-frm fieldset.locale input[name="postal-code"] {
-    display: inline;
-}
-
-#fs-frm fieldset.locale input[name="city"] {
-    width: 52%;
-}
-
-#fs-frm fieldset.locale select[name="state"],
-#fs-frm fieldset.locale input[name="postal-code"] {
-    width: 20%;
-}
-
-#fs-frm fieldset.locale input[name="city"],
-#fs-frm fieldset.locale select[name="state"] {
-    margin-right: 3%;
-}
 </style>
