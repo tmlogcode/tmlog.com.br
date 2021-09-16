@@ -8,7 +8,7 @@
 
 </script>
 
-<div id="about" class="w-full h-auto text-white flex-col items-center justify-center about">
+<div id="about" class="w-full h-auto text-white flex-col items-center justify-center about pt-20">
     <div class="flex flex-col xl:flex-row items-center justify-center">
         <div class="flex flex-col items-center justify-center p-12 mx-6 mb-8 md:mx-32 lg:mx-12 bg-transparent rounded-3xl card">
             <p data-aos="fade-right" data-aos-delay="50" class="font-thin max-w-lg text-2xl text-center"><b>{$t('about')[0].title}</b></p>
