@@ -28,7 +28,7 @@ const showSurprise = () => {
 </script>
 
 <div id="contact" class="w-auto flex flex-col xl:flex-row items-center justify-center py-8">
-    <h2 class="text-5xl md:text-4xl xl:mr-32 font-semibold text-center max-w-xl py-14 text-white ">{$t('contact_data')[0].heading} 📝</h2>
+    <h2 class="text-3xl md:text-4xl mx-4 xl:mr-32 font-semibold text-center max-w-xl py-14 text-white ">{$t('contact_data')[0].heading} 📝</h2>
     <form class="flex flex-col p-8 mx-8 rounded-3xl card" id="fs-frm" target="formSubmitFrame" name="survey-form" accept-charset="utf-8" action="https://formspree.io/f/xeqvkrav" method="post" on:submit={showSurprise}>
         <fieldset id="fs-frm-inputs" class="flex flex-col">
             <label class="text-white my-2" for="full-name" id="margin">{$t('contact_data')[0].email_list[0].list1}</label>
