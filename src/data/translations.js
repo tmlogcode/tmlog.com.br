@@ -137,7 +137,7 @@ export default {
             }
         ],
         contact_data: [{
-            heading: "Preencha o formulário e receba uma cotação personalizada para sua operação",
+            heading: "Preencha o formulário e receba uma cotação personalizada, leva apenas 2 minutos",
             email_list: [{
                 list1: "Nome completo",
                 list2: "Endereço de Email",
