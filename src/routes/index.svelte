@@ -6,6 +6,7 @@ import Values from './../lib/Values.svelte';
 import Solutions from './../lib/Solutions.svelte';
 import Header from './../lib/Header.svelte';
 import Stats from './../lib/Stats.svelte';
+import Whatsapp from '$lib/Whatsapp.svelte';
 import data from '../data/data';
 import Modal from 'svelte-simple-modal';
 import translations from '../data/translations';
@@ -19,14 +20,15 @@ $: dict.set(translations);
 </script>
 
 <Header />
+<Whatsapp />
 <Stats stats={data.STATS} />
 <Solutions solutions={data.SOLUTIONS} />
 <About about={data.ABOUT}/>
-    <Values about={data.ABOUT} />
-    <Modal>
-        <Contact contact={data.CONTACT}/>
-            </Modal>
-            <Footer />
+<Values about={data.ABOUT} />
+<Modal>
+    <Contact contact={data.CONTACT}/>
+</Modal>
+<Footer />
 
 <style>
 

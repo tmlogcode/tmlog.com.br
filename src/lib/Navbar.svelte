@@ -42,7 +42,7 @@ $: dict.set(translations);
         </li>
         {/each}
         <li class="mr-2 md:mr-4 lg:mr-11" id="divisor">|</li>
-        <a href="#contact" class=""><li class="mx-8 px-10 py-4 rounded-full border-white border opacity-60" id="contact-btn">{$t('contact')}</li></a>
+        <a href="#contact" class=""><li class="mx-8 px-10 py-4 rounded-full border-white border hover:animate-pulse" id="contact-btn">{$t('contact')}</li></a>
         <select bind:value={$locale} class="uppercase text-white" id="btn-lang">
             {#each languages as lang}
             <option value={lang} class="uppercase flex items-center justify-center">
@@ -91,15 +91,6 @@ li {
 
 nav {
     background-color: #0D0D2B;
-}
-
-#contact-btn {
-    transition: opacity 1s;
-}
-
-#contact-btn:hover {
-    opacity: 2;
-    transition: opacity 1s;
 }
 
 #divisor {
