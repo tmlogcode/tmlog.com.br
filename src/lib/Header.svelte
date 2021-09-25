@@ -22,7 +22,7 @@ $: dict.set(translations);
             <a class="flex flex-row items-center justify-center px-8 py-4 rounded-full font-semibold transition duration-500 ease-in-out transform hover:-translate-1 hover:scale-110" id="btn" href="#contact">{$t('hero_slogan')[5].text}</a>
             <br>
         </div>
-        <div class="">
+        <div class=" w-4/5 lg:w-auto">
             <img src="/hero-img.png" class="" alt="">
         </div>
     </div>
