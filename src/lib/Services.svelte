@@ -1,5 +1,5 @@
 <script>
-export let solutions = [];
+export let services = [];
 import translations from '../data/translations';
 import {
     dict,
@@ -10,20 +10,20 @@ $: languages = Object.keys(translations);
 $: dict.set(translations);
 </script>
 
-<div id="solutions" class="w-full flex flex-col items-center bg-yellow-400 text-white">
-    <div class="arrow">
+<div id="services" class="w-full flex flex-col items-center text-white">
+    <div class="arrow w-min">
         <span></span>
         <span></span>
         <span></span>
     </div>
-    {#each $t('solutions_data') as item}
+    {#each $t('services_data') as item}
     <div data-aos="fade-left" class="flex flex-col lg:flex-row items-center justify-center py-6 max-w-7xl">
-        <img src={item.img} alt="" class="img-zoom">
+        <img src={item.img} alt="" class="transition duration-500 ease-in-out transform hover:-translate-1 hover:scale-110">
         <div class="flex flex-col px-4 py-12">
             <h1 class="py-4 text-4xl font-semibold">{item.title}</h1>
             <p class="py-4 opacity-70 max-w-screen-sm font-normal">{item.p}</p>
             <a class="flex items-center" href={item.link}>
-                <div class="btn py-3 px-8 rounded-full">{item.more}</div>
+                <div class="btn py-3 px-8 rounded-full transition duration-500 ease-in-out transform hover:-translate-1 hover:scale-110">{item.more}</div>
             </a>
         </div>
     </div>
@@ -31,7 +31,7 @@ $: dict.set(translations);
 </div>
 
 <style>
-#solutions {
+#services {
     background-color: #0D0D2B;
     /* background-image: url("./background.gif");
         background-position: center;
@@ -45,19 +45,6 @@ img {
 
 .btn {
     background: linear-gradient(90deg, rgba(61, 77, 161, 1) 48%, rgba(81, 102, 213, 1) 100%);
-    transition: transform .2s;
-}
-
-.btn:hover {
-    transform: scale(1.05);
-}
-
-.img-zoom {
-    transition: transform .2s;
-}
-
-.img-zoom:hover {
-    transform: scale(1.1);
 }
 
 .arrow {

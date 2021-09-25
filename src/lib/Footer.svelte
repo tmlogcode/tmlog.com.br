@@ -24,16 +24,17 @@
             <div class="flex flex-col py-4 mx-8">
                 <h1 class="text-xl font-bold py-4">Links rápidos</h1>
                 <a class="font-normal pb-3 opacity-70" href="/">Início</a>
-                <a class="font-normal pb-3 opacity-70" href="#solutions">Soluções</a>
+                <a class="font-normal pb-3 opacity-70" href="#services">Soluções</a>
                 <a class="font-normal pb-3 opacity-70" href="#about">Sobre</a>
                 <a class="font-normal opacity-70" href="#contact">Contato</a>
             </div>
             <div class="flex flex-col py-4 mx-8">
                 <h1 class="text-xl font-semibold py-4">Páginas</h1>
-                <a class="font-normal pb-3 opacity-70" href="/solutions/air">Frete Aéreo</a>
-                <a class="font-normal pb-3 opacity-70" href="/solutions/sea">Frete Marítimo</a>
-                <a class="font-normal pb-3 opacity-70" href="/solutions/truck">Frete Rodoviário</a>
-                <a class="font-normal opacity-70" href="/solutions/custom">Logística Integrada</a>
+                <a class="font-normal pb-3 opacity-70" href="/services/air-freight">Frete Aéreo</a>
+                <a class="font-normal pb-3 opacity-70" href="/services/sea-freight">Frete Marítimo</a>
+                <a class="font-normal pb-3 opacity-70" href="/services/truck-freight">Frete Rodoviário</a>
+                <a class="font-normal pb-3 opacity-70" href="/services/integrated-logistics">Logística Integrada</a>
+                <a class="font-normal opacity-70" href="/services/cargo-insurance">Seguro de Carga</a>
             </div>
         </div>
     </div>

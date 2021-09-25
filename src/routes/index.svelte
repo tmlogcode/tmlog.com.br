@@ -3,7 +3,7 @@ import Footer from './../lib/Footer.svelte';
 import Contact from './../lib/Contact.svelte';
 import About from './../lib/About.svelte';
 import Values from './../lib/Values.svelte';
-import Solutions from './../lib/Solutions.svelte';
+import Services from '../lib/Services.svelte';
 import Header from './../lib/Header.svelte';
 import Stats from './../lib/Stats.svelte';
 import Whatsapp from '$lib/Whatsapp.svelte';
@@ -22,7 +22,7 @@ $: dict.set(translations);
 <Header />
 <Whatsapp />
 <Stats stats={data.STATS} />
-<Solutions solutions={data.SOLUTIONS} />
+<Services services={data.SERVICES} />
 <About about={data.ABOUT}/>
 <Values about={data.ABOUT} />
 <Modal>

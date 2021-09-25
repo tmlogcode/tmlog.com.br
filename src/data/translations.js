@@ -9,7 +9,7 @@ export default {
             },
             {
                 id: 2,
-                path: '#solutions',
+                path: '#services',
                 label: 'Serviços'
             },
             {
@@ -61,40 +61,40 @@ export default {
                 p: "Paises suportados"
             }
         ],
-        solutions_data: [{
+        services_data: [{
                 img: "/air.png",
                 title: "Frete aéreo",
                 p: "AGILIDADE E SEGURANÇA garantidas por meio do transporte de cargas no Modal Aéreo: a melhor opção para o envio de cargas prioritárias e/ou urgentes",
-                link: "/solutions/air",
-                more: "Saiba Mais"
+                link: "/services/air-freight",
+                more: "Saiba mais"
             },
             {
                 img: "/ship.png",
                 title: "Frete marítimo",
                 p: "SEGURANÇA E TRADIÇÃO no modal marítimo de forma diversificada, flexível e com excelência",
-                link: "/solutions/sea",
-                more: "Saiba Mais"
+                link: "/services/sea-freight",
+                more: "Saiba mais"
             },
             {
                 img: "/truck.png",
                 title: "Frete rodoviário",
                 p: "TRANQUILIDADE E SEGURANÇA asseguradas para seu negócio por meio de transporte rodoviário",
-                link: "/solutions/truck",
-                more: "Saiba Mais"
+                link: "/services/truck-freight",
+                more: "Saiba mais"
             },
             {
                 img: "/custom.png",
                 title: "Logística integrada",
                 p: "Profissionais capacitados para administrar, transportar, armazenar e distribuir sua carga com eficiência e segurança",
-                link: "/solutions/custom",
-                more: "Saiba Mais"
+                link: "/services/integrated-logistics",
+                more: "Saiba mais"
             },
             {
                 img: "/cargo.png",
                 title: "Seguro de Carga",
                 p: "ASSESSORIA COMPLETA no processo de escolha da melhor opção de seguro para a carga do seu negócio",
-                link: "/solutions/cargo",
-                more: "Saiba Mais"
+                link: "/services/cargo-insurance",
+                more: "Saiba mais"
             }
         ],
         about: [{
@@ -192,7 +192,7 @@ export default {
             }],
             fast_links: [{
                 home: "Início",
-                solutions: "Soluções",
+                services: "Serviços",
                 about: "Sobre",
                 contact: "Contato"
             }],
@@ -265,7 +265,7 @@ export default {
         }],
         cargo: [{
             title: "Seguro de Carga",
-            desc_1: "A escolha de um seguro é uma das principais etapas de uma operação, e a TMLOG oferece assessoria completa neste processo,",
+            desc: "A escolha de um seguro é uma das principais etapas de uma operação, e a TMLOG oferece assessoria completa neste processo,",
             desc_2: "apresentando uma relação única de confiança com o seu negócio.",
             list_1: "Equipe",
             list_2: "Equipe especializada, treinada e 100% dedicada ao seguro de cargas",
@@ -283,6 +283,10 @@ export default {
             more_1: "Quer saber mais? ",
             more_2: "Consulte-nos."
         }],
+        form_submit: [{
+            title: "Cotação enviada!",
+            desc: "Agora é só aguardar que entraremos em contato",
+        }],
     },
     en: {
         url: '/pt.svg',
@@ -294,8 +298,8 @@ export default {
             },
             {
                 id: 2,
-                path: '#solutions',
-                label: 'Solutions'
+                path: '#services',
+                label: 'Services'
             },
             {
                 id: 3,
@@ -311,15 +315,15 @@ export default {
             },
             {
                 id: 1,
-                text: 'Moving'
+                text: 'moving'
             },
             {
                 id: 1,
-                text: 'Your'
+                text: 'your'
             },
             {
                 id: 1,
-                text: 'Business.'
+                text: 'business'
             },
             {
                 id: 1,
@@ -327,7 +331,7 @@ export default {
             },
             {
                 id: 1,
-                text: 'QUOTE NOW'
+                text: 'Quote now'
             }
         ],
         stats: [{
@@ -346,71 +350,83 @@ export default {
                 p: "Supported Countries"
             }
         ],
-        solutions_data: [{
+        services_data: [{
                 img: "/air.png",
                 title: "AIR Freight",
-                p: "Looking for agility and safety in the shipment? The transport of cargo by air is the solution for cases of priority cargo",
-                link: "/solutions/air",
-                more: "Learn More"
+                p: "AGILITY AND SECURITY guaranteed through air cargo transport: the best choice for priority shipping and/or urgent cargoes",
+                link: "/services/air-freight",
+                more: "Learn more"
             },
             {
                 img: "/ship.png",
                 title: "SEA Freight",
-                p: "We have extensive knowledge and experience in the maritime modal, offering flexible and diversified solutions.",
-                link: "/solutions/sea",
-                more: "Learn More"
+                p: "SAFETY AND TRADITION in the sea modal in a diversified, flexible, and excellent way",
+                link: "/services/sea-freight",
+                more: "Learn more"
             },
             {
                 img: "/truck.png",
                 title: "TRUCK Freight",
-                p: "Our road transport services provide tranquility and safety for your business.",
-                link: "/solutions/truck",
-                more: "Learn More"
+                p: "TRANQUILITY AND SAFETY assured for your business by means of truck transport",
+                link: "/services/truck-freight",
+                more: "Learn more"
             },
             {
                 img: "/custom.png",
                 title: "Integrated Logistics",
-                p: "Through our Integrated Logistics solutions, you can count on trained professionals to manage, transport, store, and distribute your cargo efficiently and safely.",
-                link: "/solutions/custom",
-                more: "Learn More"
+                p: "Professionals trained to manage, transport, store, and distribute your cargo efficiently and safely",
+                link: "/services/integrated-logistics",
+                more: "Learn more"
             },
             {
                 img: "/cargo.png",
                 title: "Cargo Insurance",
-                p: "Choosing insurance is one of the key steps in an operation, and TMLOG offers complete advice in this process.",
-                link: "/solutions/cargo",
-                more: "Learn More"
+                p: "FULL ASSISTANCE in the process of choosing the best shipping insurance for your business",
+                link: "/services/cargo-insurance",
+                more: "Learn more"
             }
         ],
         about: [{
             heading: "Who are we?",
-            title: "We are a company focused on helping customers make the best decisions in the freight forwarding business.",
+            title: "Our goal is that your company gets ahead, innovates and uses technological and humanized international logistics solutions",
             why_list: [{
-                text1: "With the start of operations in Brazil in 2021, supported by a team with expertise in agency services, our goal is to offer our clients analysis of each project integrating feasibility, security, and technology.",
-                text2: "Our coordination department has extensive knowledge, managing the shipments from end to end, making the projects flow fast and efficiently according to each customer's profile, providing all the necessary help and support from the beginning to the end of the process."
+                text1: "With operations starting in 2021 under the management of an experienced team with agency expertise, we offer our clients excellence in every project, delivering viability, security, and technology.",
+                text2: "The relationship and connection between team and client is our priority, occurring in a humanized and personalized way. We manage in a coordinated and efficient way the shipments from end to end, guaranteeing that the projects are implemented in an agile and effective way, assuring help and support in all stages of the process."
             }]
         }],
-        values: [{
-            heading: 'More about TMLOG'
-        }],
-        values_list: [{
-                title: "MISSION",
-                p: "To provide our customers with the best in international logistics in order to carry out projects safely, profitably, and with technology in our favor.",
-                image_url: "success.svg"
-            },
-            {
-                title: "VISION",
-                p: "To become a national reference in cargo management within 5 years.",
-                image_url: "trust.svg"
-            },
-            {
-                title: "VALUES",
-                p: "Trust, responsibility, efficiency, and agility in our services are the main keys so that we can build loyalty to our partnership with our customers and collaborators; for us, transparency and commitment are essential in all our projects.",
-                image_url: "responsiveness.svg"
-            }
-        ],
+            values: [{
+                heading: 'More about TMLOG'
+            }],
+            values_list: [{
+                    title: "Mission",
+                    p: "Ensure efficiency and transparency throughout the international logistical flow in a safe, cost-effective, and technological manner.",
+                    p1: "",
+                    p2: "",
+                    p3: "",
+                    p4: "",
+                    image_url: "success.svg"
+                },
+                {
+                    title: "Sight",
+                    p: "To become a national reference in cargo management in an optimized, technological, and humanized way, with qualified professionals monitoring each stage.",
+                    p1: "",
+                    p2: "",
+                    p3: "",
+                    p4: "",
+                    image_url: "trust.svg"
+                },
+                {
+                    title: "Values",
+                    p: "Union of professionals with high market experience in favor of a single objective: excellence.",
+                    p1: "• We act transparently",
+                    p2: "• We use state-of-the-art technology as our greatest ally",
+                    p3: "• We optimize each process by following the evolutions",
+                    p4: "• We guarantee security and the best cost X benefit",
+                    image_url: "responsiveness.svg"
+                }
+            ],
         contact_data: [{
-            heading: "Fill out the form and receive a custom quotation for your operation:",
+            heading: "Fill out the form and receive a personalized quotation, it takes only 2 minutes",
             email_list: [{
                 list1: "Full name",
                 list2: "Email address",
@@ -545,6 +561,10 @@ export default {
             more_1: "Want to know more? ",
             more_2: "Contact us."
         }],
+        form_submit: [{
+            title: "Quotation sent!",
+            desc: "Now just wait and we will get in touch asap"
+        }],
     },
     es: {
         url: '/pt.svg',
@@ -556,8 +576,8 @@ export default {
             },
             {
                 id: 2,
-                path: '#solutions',
-                label: 'Soluciones'
+                path: '#services',
+                label: 'Servicios'
             },
             {
                 id: 3,
@@ -573,15 +593,15 @@ export default {
             },
             {
                 id: 1,
-                text: 'Moviendo'
+                text: 'moviendo'
             },
             {
                 id: 1,
-                text: 'Tu'
+                text: 'tu'
             },
             {
                 id: 1,
-                text: 'Negocio.'
+                text: 'negocio'
             },
             {
                 id: 1,
@@ -589,7 +609,7 @@ export default {
             },
             {
                 id: 1,
-                text: 'Cotización AHORA'
+                text: 'Cotizar ahora'
             }
         ],
         stats: [{
@@ -608,71 +628,83 @@ export default {
                 p: "Países con soporte"
             }
         ],
-        solutions_data: [{
-                img: "/air.png",
-                title: "Tráfico AÉREO",
-                p: "¿Busca agilidad y seguridad en el envío? El transporte de carga por vía aérea es la solución para los casos de carga prioritaria",
-                link: "/solutions/air",
-                more: "Más información"
-            },
-            {
-                img: "/ship.png",
-                title: "Tráfico MARÍTIMO",
-                p: "Contamos con amplios conocimientos y experiencia en el ámbito marítimo, ofreciendo soluciones flexibles y diversificadas.",
-                link: "/solutions/sea",
-                more: "Más información"
-            },
-            {
-                img: "/truck.png",
-                title: "Tráfico CARRETERA",
-                p: "Nuestros servicios de transporte por carretera proporcionan tranquilidad y seguridad a su empresa.",
-                link: "/solutions/truck",
-                more: "Más información"
-            },
-            {
-                img: "/custom.png",
-                title: "Logística Integrada",
-                p: "A través de nuestras soluciones de Logística Integrada, usted puede contar con profesionales capacitados para gestionar, transportar, almacenar y distribuir su carga de manera eficiente y segura.",
-                link: "/solutions/custom",
-                more: "Más información"
-            },
-            {
-                img: "/cargo.png",
-                title: "Seguridad de Carga",
-                p: "La elección de un seguro es uno de los pasos clave en una operación, y TMLOG ofrece un asesoramiento completo en este proceso.",
-                link: "/solutions/cargo",
-                more: "Más información"
-            }
-        ],
+        services_data: [{
+            img: "/air.png",
+            title: "Tráfico aéreo",
+            p: "AGILIDAD Y SEGURIDAD garantizadas a través del transporte aéreo de mercancías: la mejor opción para envíos prioritarios y/o cargas urgentes",
+            link: "/services/air-freight",
+            more: "Saiba más"
+        },
+        {
+            img: "/ship.png",
+            title: "Tráfico marítimo",
+            p: "SEGURIDAD Y TRADICIÓN en la modalidad marítima de forma diversificada, flexible y excelente",
+            link: "/services/sea-freight",
+            more: "Saiba más"
+        },
+        {
+            img: "/truck.png",
+            title: "Tráfico carretera",
+            p: "TRANQUILIDAD Y SEGURIDAD aseguradas para su negocio mediante el transporte por camión",
+            link: "/services/truck-freight",
+            more: "Saiba más"
+        },
+        {
+            img: "/custom.png",
+            title: "Logistica integrada",
+            p: "Profesionales formados para gestionar, transportar, almacenar y distribuir su carga de forma eficiente y segura",
+            link: "/services/integrated-logistics",
+            more: "Saiba más"
+        },
+        {
+            img: "/cargo.png",
+            title: "Seguro de carga",
+            p: "ASISTENCIA COMPLETA en el proceso de elección del mejor seguro de transporte para su empresa",
+            link: "/services/cargo-insurance",
+            more: "Saiba más"
+        }
+    ],
         about: [{
             heading: "¿Quiénes somos?",
-            title: "Somos una empresa centrada en ayudar a los clientes a tomar las mejores decisiones en el negocio del transporte de mercancías.",
+            title: "Nuestro objetivo es que su empresa salga adelante, innove y utilice soluciones logísticas internacionales tecnológicas y humanizadas",
             why_list: [{
-                text1: "Con el inicio de las operaciones en Brasil en 2021, con el apoyo de un equipo con experiencia en servicios de agencia, nuestro objetivo es ofrecer a nuestros clientes el análisis de cada proyecto integrando la viabilidad, la seguridad y la tecnología.",
-                text2: "Nuestro departamento de coordinación cuenta con amplios conocimientos, gestionando los envíos de principio a fin, haciendo que los proyectos fluyan de forma rápida y eficaz según el perfil de cada cliente, proporcionando toda la ayuda y el apoyo necesarios desde el principio hasta el final del proceso."
+                text1: "Con el inicio de las operaciones en 2021 bajo la dirección de un equipo experimentado con conocimientos de agencia, ofrecemos a nuestros clientes la excelencia en cada proyecto, ofreciendo viabilidad, seguridad y tecnología.",
+                text2: "La relación y conexión entre equipo y cliente es nuestra prioridad, produciéndose de forma humanizada y personalizada. Gestionamos de forma coordinada y eficiente los envíos de punta a punta, garantizando que los proyectos se implementen de forma ágil y efectiva, asegurando ayuda y soporte en todas las etapas del proceso."
             }]
         }],
         values: [{
             heading: 'Más información sobre TMLOG'
         }],
         values_list: [{
-                title: "MISIÓN",
-                p: "Poner a disposición de nuestros clientes lo mejor en logística internacional para realizar proyectos de forma segura, rentable y con la tecnología a nuestro favor.",
+                title: "Misión",
+                p: "Garantizar la eficiencia y la transparencia en todo el flujo logístico internacional de forma segura, rentable y tecnológica.",
+                p1: "",
+                p2: "",
+                p3: "",
+                p4: "",
                 image_url: "success.svg"
             },
             {
-                title: "VISTA",
-                p: "Convertirse en una referencia nacional en la gestión de la carga en un plazo de 5 años.",
+                title: "Visión",
+                p: "Convertirse en una referencia nacional en el transporte de mercancías de forma optimizada, tecnológica y humanizada, con el seguimiento de cada etapa por parte de profesionales cualificados.",
+                p1: "",
+                p2: "",
+                p3: "",
+                p4: "",
                 image_url: "trust.svg"
             },
             {
-                title: "VALORES",
-                p: "La confianza, la responsabilidad, la eficiencia y la agilidad en nuestros servicios son las principales claves para que podamos fidelizar nuestra asociación con nuestros clientes y colaboradores; para nosotros, la transparencia y el compromiso son esenciales en todos nuestros proyectos.",
+                title: "Valores",
+                p: "Una unión de profesionales del mercado con gran experiencia que trabajan por un único objetivo: la excelencia.",
+                p1: "• Actuamos con transparencia",
+                p2: "• Utilizamos la tecnología como nuestro mejor aliado",
+                p3: "• Optimizamos cada proceso manteniéndonos al tanto de los avances",
+                p4: "• Garantizamos la seguridad y el mejor coste x beneficio",
                 image_url: "responsiveness.svg"
             }
         ],
         contact_data: [{
-            heading: "Rellene el formulario y reciba un presupuesto personalizado para su operación:",
+            heading: "Rellene el formulario y reciba un presupuesto personalizado, sólo le llevará 2 minutos",
             email_list: [{
                 list1: "Nombre completo",
                 list2: "Correo electrónico",
@@ -805,6 +837,10 @@ export default {
             footer_1: "No importa el origen, destino o volumen de su carga. ¡Estamos listos para transportarlo de forma segura y rápida!",
             more_1: "¿Quiere saber más? ",
             more_2: "Contáctenos."
+        }],
+        form_submit: [{
+            title: "¡Cotización enviada!",
+            desc: "Ahora sólo tiene que esperar y nos pondremos en contacto",
         }],
     }
 }

@@ -19,7 +19,7 @@ const {
 
 const showSurprise = () => {
     open(Surprise, {
-        message: "Cotação enviada!"
+        message: $t('form_submit')[0].title
     });
     setTimeout(function() {
         document.getElementById("fs-frm").reset();
@@ -67,7 +67,7 @@ const showSurprise = () => {
             </fieldset>
             <input type="hidden" name="_subject" id="email-subject" value="Nova cotação solicitada:">
         </fieldset>
-        <input id="submit" class=" py-4 rounded-3xl mt-6" type="submit" value={$t('contact_data')[0].email_list[0].list9}>
+        <input id="submit" class=" py-4 rounded-3xl mt-6 transition duration-500 ease-in-out transform hover:-translate-1 hover:scale-110" type="submit" value={$t('contact_data')[0].email_list[0].list9}>
         <iframe name="formSubmitFrame" tile="Holds Submitted form data" rel="nofollow" class="d-none"></iframe>
     </form>
 </div>
@@ -109,11 +109,6 @@ select {
 
 input[type="submit"] {
     background: linear-gradient(90deg, rgba(61, 77, 161, 1) 48%, rgba(81, 102, 213, 1) 100%);
-    transition: transform .2s;
     color: #fff;
 }
-input[type="submit"]:hover {
-    transform: scale(1.05);
-}
-
 </style>

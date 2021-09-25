@@ -1,9 +1,9 @@
 <script>
-	import Footer from './../../lib/Footer.svelte';
-	import Navbar from './../../lib/Navbar.svelte';
+	import Footer from '../../lib/Footer.svelte';
+	import Navbar from '../../lib/Navbar.svelte';
 
-    import translations from './../../data/translations';
-    import { dict, locale, t } from './../../data/i18n';
+    import translations from '../../data/translations';
+    import { dict, locale, t } from '../../data/i18n';
     $: languages = Object.keys(translations);
     $: dict.set(translations);
 </script>
