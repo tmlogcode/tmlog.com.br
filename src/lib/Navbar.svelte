@@ -97,7 +97,7 @@ button {
 #menuMobile {
     background-color: #0D0D2B;
     animation-name: open;
-    animation-duration: 2s;
+    animation-duration: 0.2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
