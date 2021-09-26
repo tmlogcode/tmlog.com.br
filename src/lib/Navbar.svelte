@@ -34,7 +34,7 @@ $: dict.set(translations);
 </script>
 
 <nav class="w-full h-40 flex justify-around items-center">
-    <a href="/" class="img-zoom"><img src="/logo-full-white.svg" alt="" class=""></a>
+    <a href="/" class="transition duration-500 ease-in-out transform hover:-translate-1 hover:scale-125"><img src="/logo-full-white.svg" alt="" class=""></a>
     <ul class="hidden sm:flex justify-around items-center">
         {#each $t('navbar') as item}
         <li class="mx-8  font-normal">
@@ -71,14 +71,6 @@ $: dict.set(translations);
 img {
     height: 65px;
 
-}
-
-.img-zoom {
-    transition: transform .2s;
-}
-
-.img-zoom:hover {
-    transform: scale(1.3);
 }
 
 #btn-lang {
