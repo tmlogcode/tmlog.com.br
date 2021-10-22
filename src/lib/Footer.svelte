@@ -39,14 +39,16 @@
         </div>
     </div>
 </div>
-<div class="flex w-full items-center justify-around my-1">
+<div id="footer-2" class="flex w-full items-center justify-around">
     <div>
-        <h1 class=" text-sm text-white pt-12 text-acave text-center">Rua Giovanni Battista Pirelli, 271, Sala 207, Vila Homero Thon, Santo André, SP - Brasil - CEP 09111-340</h1>
+        <h1 class=" text-sm text-white pt-2 pb-2 text-acave text-center">Rua Giovanni Battista Pirelli, 271, Sala 207, Vila Homero Thon, Santo André, SP - Brasil - CEP 09111-340</h1>
     </div>
 </div>
 
 <style>
-#footer {
-    background-color: #0D0D2B;
+#footer,#footer-2 {
+    background: linear-gradient(
+90deg, rgba(61, 77, 161, 1) 48%, rgba(81, 102, 213, 1) 100%);
 }
+
 </style>
