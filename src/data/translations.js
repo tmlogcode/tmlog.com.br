@@ -22,19 +22,19 @@ export default {
         menu: '/menu.svg',
         hero_slogan: [{
                 id: 1,
-                text: 'Nossa logística'
+                text: 'Garantimos a maior taxa de eficiência,'
             },
             {
                 id: 1,
-                text: 'movimentando'
+                text: 'ótimas opções de embarques,'
             },
             {
                 id: 1,
-                text: 'seu'
+                text: 'minimização de atrasos,'
             },
             {
                 id: 1,
-                text: 'negócio'
+                text: 'valores competitivos e atendimento personalizado para cada demanda.'
             },
             {
                 id: 1,
@@ -61,6 +61,14 @@ export default {
                 p: "Paises suportados"
             }
         ],
+        rotative: [{
+            title0: "A TMLOG SAI NA FRENTE!",
+            text0: "A LOGÍSTICA INTERNACIONAL conecta infinitas possibilidades, com FERRAMENTAS TECNOLÓGICAS implementadas em nossa operação, possuímos grandes vantagens na execução de cada processo com segurança, agilidade, assistência personalizada e humanizada.",
+            title1: "Com a TMLOG você:",
+            text1: "GANHA agilidade e precisão nos processos REDUZ custos e falhas Possuí ACOMPANHAMENTO de carga em todas as etapas Garante SUPORTE ativo com análise, solução e ação.",
+            title2: "NOSSO FOCO",
+            text2: "Atuar de forma estratégica e eficaz, trazendo vantagens competitivas para cada projeto na LOGÍSTICA INTERNACIONAL"
+        }],
         services_data: [{
                 img: "/air.png",
                 title: "Frete aéreo",
@@ -99,9 +107,11 @@ export default {
         ],
         about: [{
             heading: "Quem somos nós",
+            h1: "Qualidade em Parceiros Internacionais",
             title: "Nosso objetivo é que a sua empresa saia na frente, inove e utilize soluções tecnológicas e humanizadas de logística internacional",
+            p: "A importância de trabalhar com os parceiros certos em todos os locais do mundo, nosso objetivo é sempre manter relações estratégicas duradouras, proporcionando oportunidades de oferecer uma solução global com confiança e segurança em todos nossos projetos. Possuímos parcerias com agentes internacionais especializados melhor atender nossas demandas",
             why_list: [{
-                text1: "Com operações iniciadas em 2021 sob a gestão de uma equipe experiente e com expertise em agenciamento, oferecemos aos nossos clientes excelência em cada projeto, entregando viabilidade, segurança e tecnologia.",
+                text1: "Com operações iniciadas em 2020 sob a gestão de uma equipe experiente e com expertise em agenciamento, oferecemos aos nossos clientes excelência em cada projeto, entregando viabilidade, segurança e tecnologia.",
                 text2: "O relacionamento e a conexão entre equipe e cliente é nossa prioridade, ocorrendo de maneira humanizada e personalizada. Gerenciamos de forma coordenada e eficiente os embarques de ponta a ponta, garantindo que os projetos sejam implementados de forma ágil e eficaz, assegurando o auxílio e suporte em todas as etapas do processo."
             }]
         }],
@@ -128,11 +138,10 @@ export default {
             },
             {
                 title: "Valores",
-                p: "União de profissionais com alta experiência de mercado em prol de um único objetivo: excelência.",
+                p: "União de profissionais com alta experiência de mercado em prol de um único objetivo: EXCELÊNCIA.",
                 p1: "• Agimos com transparência",
                 p2: "• Utilizamos a tecnologia como maior aliado",
                 p3: "• Otimizamos cada processo acompanhando as evoluções",
-                p4: "• Garantimos segurança e melhor custo X benefício",
                 image_url: "responsiveness.svg"
             }
         ],
@@ -191,18 +200,21 @@ export default {
                 email: "contato@tmlog.com.br"
             }],
             fast_links: [{
+                title: "Links rápidos",
                 home: "Início",
                 services: "Serviços",
                 about: "Sobre",
                 contact: "Contato"
             }],
             pages: [{
+                title:"Páginas",
                 air: "Frete Aéreo",
                 sea: "Frete Marítimo",
                 truck: "Frete Rodoviário",
                 integrated: "Logística Integrada",
+                cargo: "Seguro de Carga"
             }],
-            credits: "@2021 TMLOG. Todos os direitos reservados",
+            credits: "@2020 TMLOG. Todos os direitos reservados",
             credits_email: "diaugustdev@gmail.com"
         }],
         air: [{
@@ -311,19 +323,19 @@ export default {
         menu: '/menu.svg',
         hero_slogan: [{
                 id: 1,
-                text: 'Our logistics'
+                text: 'We guarantee the highest efficiency rate,'
             },
             {
                 id: 1,
-                text: 'moving'
+                text: 'optimal shipping options,'
             },
             {
                 id: 1,
-                text: 'your'
+                text: 'minimized delays,'
             },
             {
                 id: 1,
-                text: 'business'
+                text: 'competitive rates, and personalized service for each demand.'
             },
             {
                 id: 1,
@@ -350,6 +362,14 @@ export default {
                 p: "Supported Countries"
             }
         ],
+        rotative: [{
+            title0: "TMLOG LEADS THE WAY!",
+            text0: "INTERNATIONAL LOGISTICS connects infinite possibilities, with TECHNOLOGICAL TOOLS implemented in our operation, we have great advantages in the execution of each process with safety, agility, and personalized and humanized assistance.",
+            title1: "With TMLOG you:",
+            text1: "GAINS agility and precision in the processes REDUCES costs and failures It has LOAD MONITORING in all stages It ensures active SUPPORT with analysis, solution, and action.",
+            title2: "OUR FOCUS",
+            text2: "To act strategically and effectively, bringing competitive advantages to each project in INTERNATIONAL LOGISTICS"
+        }],
         services_data: [{
                 img: "/air.png",
                 title: "AIR Freight",
@@ -388,9 +408,11 @@ export default {
         ],
         about: [{
             heading: "Who are we?",
+            h1: "International Partner Quality",
             title: "Our goal is that your company gets ahead, innovates and uses technological and humanized international logistics solutions",
+            p: "The importance of working with the right partners in all locations around the world, our goal is to always maintain long-lasting strategic relationships, providing opportunities to offer a global solution with confidence and security in all our projects. We have partnerships with specialized international agents to better meet our demands",
             why_list: [{
-                text1: "With operations starting in 2021 under the management of an experienced team with agency expertise, we offer our clients excellence in every project, delivering viability, security, and technology.",
+                text1: "With operations starting in 2020 under the management of an experienced team with agency expertise, we offer our clients excellence in every project, delivering viability, security, and technology.",
                 text2: "The relationship and connection between team and client is our priority, occurring in a humanized and personalized way. We manage in a coordinated and efficient way the shipments from end to end, guaranteeing that the projects are implemented in an agile and effective way, assuring help and support in all stages of the process."
             }]
         }],
@@ -470,7 +492,7 @@ export default {
         }],
         footer_data: [{
             image_url: "logo-full-white.svg",
-            description: "Logistics & technology moving your business",
+            description: "Nossa logística movimentando seu negócio.",
             image_local: "local.svg",
             contact_details: [{
                 street: "Rua Giovanni Battista Pirelli, 271, sala 207",
@@ -479,7 +501,22 @@ export default {
                 cel: "+55 11 98342-0044",
                 email: "contato@tmlog.com.br"
             }],
-            credits: "@2021 TMLOG. All rights reserved",
+            fast_links: [{
+                title: "Fast links",
+                home: "Home",
+                services: "Services",
+                about: "About",
+                contact: "Contact"
+            }],
+            pages: [{
+                title: "Pages",
+                air: "Air Freight",
+                sea: "Sea Freight",
+                truck: "Truck Freight",
+                integrated: "Integrated Logistics",
+                cargo: "Cargo Insurance"
+            }],
+            credits: "@2020 TMLOG. Todos os direitos reservados",
             credits_email: "diaugustdev@gmail.com"
         }],
         air: [{
@@ -589,19 +626,19 @@ export default {
         menu: '/menu.svg',
         hero_slogan: [{
                 id: 1,
-                text: 'La logistica'
+                text: 'Garantizamos el mayor índice de eficacia,'
             },
             {
                 id: 1,
-                text: 'moviendo'
+                text: 'opciones de envío óptimas,'
             },
             {
                 id: 1,
-                text: 'tu'
+                text: 'retrasos mínimos,'
             },
             {
                 id: 1,
-                text: 'negocio'
+                text: 'tarifas competitivas y un servicio personalizado para cada demanda.'
             },
             {
                 id: 1,
@@ -628,6 +665,14 @@ export default {
                 p: "Países con soporte"
             }
         ],
+        rotative: [{
+            title0: "¡TMLOG LIDERA EL CAMINO!",
+            text0: "LOGÍSTICA INTERNACIONAL conecta infinitas posibilidades, con HERRAMIENTAS TECNOLÓGICAS implementadas en nuestra operación, tenemos grandes ventajas en la ejecución de cada proceso con seguridad, agilidad y asistencia personalizada y humanizada.",
+            title1: "Con TMLOG usted:",
+            text1: "GANA agilidad y precisión en los procesos REDUCE costos y fallas Cuenta con MONITOREO DE CARGA en todas las etapas Asegura un SOPORTE activo con análisis, solución y acción.",
+            title2: "NUESTRO ENFOQUE",
+            text2: "Actuar de forma estratégica y eficaz, aportando ventajas competitivas a cada proyecto en LOGÍSTICA INTERNACIONAL"
+        }],
         services_data: [{
             img: "/air.png",
             title: "Tráfico aéreo",
@@ -666,9 +711,11 @@ export default {
     ],
         about: [{
             heading: "¿Quiénes somos?",
+            h1: "Calidad en los socios internacionales",
             title: "Nuestro objetivo es que su empresa salga adelante, innove y utilice soluciones logísticas internacionales tecnológicas y humanizadas",
+            p: "La importancia de trabajar con los socios adecuados en todos los lugares del mundo, nuestro objetivo es mantener relaciones estratégicas a largo plazo, proporcionando oportunidades para ofrecer una solución global con confianza y seguridad en todos nuestros proyectos. Tenemos asociaciones con agentes internacionales especializados para satisfacer mejor nuestras demandas.",
             why_list: [{
-                text1: "Con el inicio de las operaciones en 2021 bajo la dirección de un equipo experimentado con conocimientos de agencia, ofrecemos a nuestros clientes la excelencia en cada proyecto, ofreciendo viabilidad, seguridad y tecnología.",
+                text1: "Con el inicio de las operaciones en 2020 bajo la dirección de un equipo experimentado con conocimientos de agencia, ofrecemos a nuestros clientes la excelencia en cada proyecto, ofreciendo viabilidad, seguridad y tecnología.",
                 text2: "La relación y conexión entre equipo y cliente es nuestra prioridad, produciéndose de forma humanizada y personalizada. Gestionamos de forma coordinada y eficiente los envíos de punta a punta, garantizando que los proyectos se implementen de forma ágil y efectiva, asegurando ayuda y soporte en todas las etapas del proceso."
             }]
         }],
@@ -748,7 +795,7 @@ export default {
         }],
         footer_data: [{
             image_url: "logo-full-white.svg",
-            description: "La logística y la tecnología mueven su negocio",
+            description: "Nossa logística movimentando seu negócio.",
             image_local: "local.svg",
             contact_details: [{
                 street: "Rua Giovanni Battista Pirelli, 271, sala 207",
@@ -757,7 +804,22 @@ export default {
                 cel: "+55 11 98342-0044",
                 email: "contato@tmlog.com.br"
             }],
-            credits: "@2021 TMLOG. Todos los derechos reservados",
+            fast_links: [{
+                title: "Enlaces rápidos",
+                home: "Inicio",
+                services: "Servicios",
+                about: "Sobre",
+                contact: "Contacto"
+            }],
+            pages: [{
+                title: "Páginas",
+                air: "Tráfico aéreo",
+                sea: "Tráfico marítimo",
+                truck: "Tráfico carretera",
+                integrated: "Logistica Integrada",
+                cargo: "Seguro de Carga"
+            }],
+            credits: "@2020 TMLOG. Todos os direitos reservados",
             credits_email: "diaugustdev@gmail.com"
         }],
         air: [{

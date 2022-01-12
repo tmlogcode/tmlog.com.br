@@ -15,14 +15,15 @@ $: dict.set(translations);
 <div class="w-full flex flex-col lg:flex-row items-center justify-center text-white" id="hero">
     <div class="flex flex-col items-center lg:flex-row">
         <div class="flex flex-col items-baseline my-2 md:my-8 mx-16 md:mx-16">
-            <h1 class="max-w-md text-5xl md:text-6xl font-semibold py-4">{$t('hero_slogan')[0].text} {$t('hero_slogan')[1].text} {$t('hero_slogan')[2].text} {$t('hero_slogan')[3].text}</h1>
+            <h1 class="max-w-md text-3xl md:text-4xl font-bold">{$t('hero_slogan')[0].text}</h1>
+            <h1 class="max-w-xl text-xl font-medium">{$t('hero_slogan')[1].text} {$t('hero_slogan')[2].text} {$t('hero_slogan')[3].text}</h1>
             <br>
             <!-- <p class="font-thin">{$t('hero_slogan')[3].text}</p> -->
             <br>
             <a class="flex flex-row items-center justify-center px-8 py-4 rounded-full font-semibold transition duration-500 ease-in-out transform hover:-translate-1 hover:scale-110" id="btn" href="#contact">{$t('hero_slogan')[5].text}</a>
             <br>
         </div>
-        <div class=" w-4/5 lg:w-auto">
+        <div class="w-4/5 lg:w-1/2">
             <img src="/hero-img.png" class="" alt="">
         </div>
     </div>

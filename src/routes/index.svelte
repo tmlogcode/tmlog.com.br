@@ -9,6 +9,8 @@ import Stats from './../lib/Stats.svelte';
 import Whatsapp from '$lib/Whatsapp.svelte';
 import data from '../data/data';
 import Modal from 'svelte-simple-modal';
+import Map from './../lib/Map.svelte';
+import Rotative from './../lib/Rotative.svelte';
 import translations from '../data/translations';
 import {
     dict,
@@ -22,12 +24,14 @@ $: dict.set(translations);
 <Header />
 <Whatsapp />
 <Stats stats={data.STATS} />
+<Rotative />
 <Services services={data.SERVICES} />
 <About about={data.ABOUT}/>
 <Values about={data.ABOUT} />
 <Modal>
     <Contact contact={data.CONTACT}/>
 </Modal>
+<Map />
 <Footer />
 
 <style>

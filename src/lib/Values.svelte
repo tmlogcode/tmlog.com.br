@@ -20,7 +20,6 @@ $: dict.set(translations);
             <li class="my-2">{item.p1}</li>
             <li class="my-2">{item.p2}</li>
             <li class="my-2">{item.p3}</li>
-            <li class="my-2">{item.p4}</li>
         </ul>
     </div>
     {/each}

@@ -34,7 +34,7 @@ $: dict.set(translations);
 </script>
 
 <nav class="w-full h-40 flex justify-around items-center">
-    <a href="/" class="transition duration-500 ease-in-out transform hover:-translate-1 hover:scale-125"><img src="/logo-full-white.svg" alt="" class=""></a>
+    <a href="/" class="transition duration-500 ease-in-out transform hover:-translate-1 hover:scale-110"><img src="/logo-full-white.svg" alt="" class=""></a>
     <ul class="hidden sm:flex justify-around items-center">
         {#each $t('navbar') as item}
         <li class="mx-8  font-normal">
@@ -65,11 +65,18 @@ $: dict.set(translations);
         <a href="{item.path}">{item.label}</a>
     </li>
     {/each}
+    <select bind:value={$locale} class="uppercase text-white mt-4 mb-4" id="btn-lang">
+        {#each languages as lang}
+        <option value={lang} class="uppercase flex items-center justify-center">
+            {lang}
+        </option>
+        {/each}
+    </select>
 </ul>
 
 <style>
 img {
-    height: 65px;
+    height: 90px;
 
 }
 
@@ -110,7 +117,7 @@ button {
 
     100% {
         background-color: #0D0D2B;
-        height: 250px;
+        height: 300px;
     }
 }
 </style>

@@ -27,6 +27,7 @@
   },
   "type": "module",
   "dependencies": {
-    "stable": "^0.1.8"
+    "stable": "^0.1.8",
+    "swiper": "^7.4.1"
   }
 }
