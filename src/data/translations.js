@@ -65,7 +65,10 @@ export default {
             title0: "A TMLOG SAI NA FRENTE!",
             text0: "A LOGÍSTICA INTERNACIONAL conecta infinitas possibilidades, com FERRAMENTAS TECNOLÓGICAS implementadas em nossa operação, possuímos grandes vantagens na execução de cada processo com segurança, agilidade, assistência personalizada e humanizada.",
             title1: "Com a TMLOG você:",
-            text1: "GANHA agilidade e precisão nos processos REDUZ custos e falhas Possuí ACOMPANHAMENTO de carga em todas as etapas Garante SUPORTE ativo com análise, solução e ação.",
+            text1: "GANHA agilidade e precisão nos processos",
+            p1: "REDUZ custos e falhas Possuí ",
+            p2: "ACOMPANHAMENTO de carga em todas as etapas Garante ",
+            p3: "SUPORTE ativo com análise, solução e ação.",
             title2: "NOSSO FOCO",
             text2: "Atuar de forma estratégica e eficaz, trazendo vantagens competitivas para cada projeto na LOGÍSTICA INTERNACIONAL"
         }],

@@ -40,11 +40,14 @@
       >
         <SwiperSlide class="text-white">
             <h1 class="py-6 px-16 font-bold text-2xl">{$t('rotative')[0].title0}</h1>
-            <p class="pb-12 px-16">{$t('rotative')[0].text0}</p>
+            <p class="pb-2 px-16">{$t('rotative')[0].text0}</p>
         </SwiperSlide>
         <SwiperSlide class="text-white">
             <h1 class="py-6 px-16 font-bold text-2xl">{$t('rotative')[0].title1}</h1>
-            <p class="pb-12 px-16">{$t('rotative')[0].text1}</p>
+            <p class="pb-2 px-16">{$t('rotative')[0].text1}</p>
+            <p class="pb-2 px-16">{$t('rotative')[0].p1}</p>
+            <p class="pb-2 px-16">{$t('rotative')[0].p2}</p>
+            <p class="pb-8 px-16">{$t('rotative')[0].p3}</p>
         </SwiperSlide>
         <SwiperSlide class="text-white">
             <h1 class="py-6 px-16 font-bold text-2xl">{$t('rotative')[0].title2}</h1>

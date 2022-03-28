@@ -57,9 +57,7 @@
 #footer,#footer-2 {
     background: linear-gradient(90deg, rgba(61, 77, 161, 1) 48%, rgba(81, 102, 213, 1) 100%);
 }
-
 #copyright {
     background-color: #0D0D2B;
 }
-
 </style>
